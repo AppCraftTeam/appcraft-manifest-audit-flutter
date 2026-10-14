@@ -1,0 +1,17 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/dev/legacy_app/android/app/src/main/AndroidManifest.xml:1:1-24:12
+android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /home/dev/legacy_app/android/app/src/main/AndroidManifest.xml reason: com.example.oldlib has a targetSdkVersion < 4
+android:uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /home/dev/legacy_app/android/app/src/main/AndroidManifest.xml reason: com.example.oldlib has a targetSdkVersion < 4
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /home/dev/legacy_app/android/app/src/main/AndroidManifest.xml reason: com.example.oldlib requested WRITE_EXTERNAL_STORAGE
+android:uses-permission#android.permission.READ_CALL_LOG
+IMPLIED from /home/dev/legacy_app/android/app/src/main/AndroidManifest.xml reason: com.example.oldlib has targetSdkVersion < 16 and requested READ_CONTACTS
+android:uses-permission#android.permission.WRITE_CALL_LOG
+IMPLIED from /home/dev/legacy_app/android/app/src/main/AndroidManifest.xml reason: com.example.oldlib has targetSdkVersion < 16 and requested WRITE_CONTACTS
+application
+ADDED from /home/dev/legacy_app/android/app/src/main/AndroidManifest.xml:6:5-22:19
+activity#com.example.legacy.MainActivity
+ADDED from /home/dev/legacy_app/android/app/src/main/AndroidManifest.xml:7:9-20:20

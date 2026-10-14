@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.demoshop"
+    android:versionCode="42"
+    android:versionName="4.2.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="com.demoshop.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <permission
+        android:name="com.demoshop.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <queries>
+        <package android:name="ru.bank.alpha" />
+        <package android:name="ru.bank.beta" />
+        <package android:name="ru.bank.gamma" />
+        <package android:name="ru.bank.delta" />
+        <package android:name="com.android.chrome" />
+    </queries>
+
+    <application android:label="demo_shop" >
+        <activity
+            android:name="com.demoshop.MainActivity"
+            android:exported="true" />
+
+        <provider
+            android:name="com.vk.id.captcha.init.SdkInitContentProvider"
+            android:authorities="com.demoshop.vkid-captcha"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.appsflyer.SingleInstallBroadcastReceiver"
+            android:exported="true" />
+    </application>
+
+</manifest>

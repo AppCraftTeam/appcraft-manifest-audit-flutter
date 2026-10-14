@@ -1,0 +1,7 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\dev\AppData\Local\Pub\Cache\hosted\pub.dev\camera_android_camerax-0.6.19\android\src\main\AndroidManifest.xml:1:1-14:12
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\dev\AppData\Local\Pub\Cache\hosted\pub.dev\camera_android_camerax-0.6.19\android\src\main\AndroidManifest.xml:10:5-71
+uses-feature#android.hardware.camera.any
+ADDED from C:\Users\dev\AppData\Local\Pub\Cache\hosted\pub.dev\camera_android_camerax-0.6.19\android\src\main\AndroidManifest.xml:7:5-9:19

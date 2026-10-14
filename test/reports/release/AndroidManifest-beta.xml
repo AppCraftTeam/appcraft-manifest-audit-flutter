@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.demoshop.beta"
+    android:versionCode="42"
+    android:versionName="4.2.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="com.demoshop.beta.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application android:label="demo_shop beta" >
+        <activity
+            android:name="com.demoshop.MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

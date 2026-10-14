@@ -1,0 +1,22 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Projects\demo_site\android\app\src\main\AndroidManifest.xml:1:1-38:12
+uses-permission#android.permission.INTERNET
+ADDED from C:\Projects\demo_site\android\app\src\main\AndroidManifest.xml:4:5-67
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from C:\Projects\demo_site\android\app\src\main\AndroidManifest.xml:10:5-12:31
+MERGED from [:open_filex] C:\Projects\demo_site\build\open_filex\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:7:5-79
+	tools:node
+		ADDED from C:\Projects\demo_site\android\app\src\main\AndroidManifest.xml:12:9-28
+uses-permission#android.permission.READ_MEDIA_VIDEO
+ADDED from C:\Projects\demo_site\android\app\src\main\AndroidManifest.xml:13:5-15:31
+	tools:node
+		ADDED from C:\Projects\demo_site\android\app\src\main\AndroidManifest.xml:15:9-28
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Projects\demo_site\android\app\src\main\AndroidManifest.xml:16:5-18:31
+	tools:node
+		ADDED from C:\Projects\demo_site\android\app\src\main\AndroidManifest.xml:18:9-28
+application
+ADDED from C:\Projects\demo_site\android\app\src\main\AndroidManifest.xml:20:5-36:19
+activity#com.demosite.MainActivity
+ADDED from C:\Projects\demo_site\android\app\src\main\AndroidManifest.xml:21:9-34:20

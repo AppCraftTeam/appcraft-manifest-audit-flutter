@@ -1,0 +1,7 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\dev\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_core-3.13.0\android\src\main\AndroidManifest.xml:1:1-9:12
+application
+ADDED from C:\Users\dev\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_core-3.13.0\android\src\main\AndroidManifest.xml:3:5-8:19
+provider#androidx.startup.InitializationProvider
+ADDED from C:\Users\dev\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_core-3.13.0\android\src\main\AndroidManifest.xml:4:9-7:41

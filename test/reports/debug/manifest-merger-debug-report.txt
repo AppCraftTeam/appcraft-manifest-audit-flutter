@@ -1,0 +1,55 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Projects\demo_app\android\app\src\main\AndroidManifest.xml:1:1-42:12
+INJECTED from C:\Projects\demo_app\android\app\src\main\AndroidManifest.xml
+MERGED from [:camera_android_camerax] C:\Projects\demo_app\build\camera_android_camerax\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:1:1-19:12
+	package
+		INJECTED from C:\Projects\demo_app\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Projects\demo_app\android\app\src\main\AndroidManifest.xml
+uses-sdk
+INJECTED from C:\Projects\demo_app\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Projects\demo_app\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Projects\demo_app\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Projects\demo_app\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Projects\demo_app\android\app\src\main\AndroidManifest.xml:4:5-67
+INJECTED from C:\Projects\demo_app\android\app\src\debug\AndroidManifest.xml
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [:camera_android_camerax] C:\Projects\demo_app\build\camera_android_camerax\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:5-71
+MERGED from [:camera_android_camerax] C:\Projects\demo_app\build\camera_android_camerax\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:5-71
+MERGED from [:camera_android_camerax] C:\Projects\demo_app\build\camera_android_camerax\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:5-71
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Projects\demo_app\android\app\src\main\AndroidManifest.xml:5:5-7:38
+	android:maxSdkVersion
+		ADDED from [:photo_manager] C:\Projects\demo_app\build\photo_manager\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:9-35
+	android:name
+		ADDED from C:\Projects\demo_app\android\app\src\main\AndroidManifest.xml:6:9-71
+uses-permission#android.permission.VIBRATE
+ADDED from [:vibration] C:\Projects\demo_app\build\vibration\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:5-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\dev\.gradle\caches\8.14.2\transforms\1b8231ad62c9be5fd5cc8d323ddd6015\transformed\jetified-firebase-messaging-24.1.0\AndroidManifest.xml:23:5-66
+MERGED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\dev\.gradle\caches\8.14.2\transforms\1b8231ad62c9be5fd5cc8d323ddd6015\transformed\jetified-firebase-messaging-24.1.0\AndroidManifest.xml:23:5-66
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0] /home/dev/.gradle/caches/8.14.2/transforms/44a9c1e0/transformed/ads-adservices-1.1.0/AndroidManifest.xml:22:5-20
+uses-feature#android.hardware.camera.any
+ADDED from [:camera_android_camerax] C:\Projects\demo_app\build\camera_android_camerax\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-9:19
+application
+ADDED from C:\Projects\demo_app\android\app\src\main\AndroidManifest.xml:9:5-40:19
+MERGED from [:firebase_core] C:\Projects\demo_app\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.15.0] C:\Users\dev\.gradle\caches\8.14.2\transforms\188d40431c691fc61938ef9b5919991d\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+activity#com.example.demo_app.MainActivity
+ADDED from C:\Projects\demo_app\android\app\src\main\AndroidManifest.xml:10:9-30:20
+service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService
+ADDED from [:firebase_messaging] C:\Projects\demo_app\build\firebase_messaging\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:9-18:19
+MERGED from [:firebase_messaging] C:\Projects\demo_app\build\firebase_messaging\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:9-18:19
+provider#androidx.startup.InitializationProvider
+ADDED from [:firebase_core] C:\Projects\demo_app\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:9-12:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dev\.gradle\caches\8.14.2\transforms\9f1c33a2\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:24:9-32:20
+	android:exported
+		ADDED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dev\.gradle\caches\8.14.2\transforms\9f1c33a2\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:13-37
+intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
+ADDED from [:file_picker] C:\Projects\demo_app\build\file_picker\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:13-17:29

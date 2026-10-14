@@ -1,0 +1,74 @@
+{
+  "info": "This is a generated file; do not edit or check into version control.",
+  "plugins": {
+    "ios": [],
+    "android": [
+      {
+        "name": "camera_android_camerax",
+        "path": "C:\\Users\\dev\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\camera_android_camerax-0.6.19\\",
+        "native_build": true,
+        "dependencies": ["flutter_plugin_android_lifecycle"],
+        "dev_dependency": false
+      },
+      {
+        "name": "camera_web",
+        "path": "C:\\Users\\dev\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\camera_web-0.3.5\\",
+        "native_build": false,
+        "dependencies": [],
+        "dev_dependency": false
+      },
+      {
+        "name": "file_picker",
+        "path": "C:\\Users\\dev\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\file_picker-8.3.7\\",
+        "native_build": true,
+        "dependencies": [],
+        "dev_dependency": false
+      },
+      {
+        "name": "firebase_core",
+        "path": "C:\\Users\\dev\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\firebase_core-3.13.0\\",
+        "native_build": true,
+        "dependencies": [],
+        "dev_dependency": false
+      },
+      {
+        "name": "firebase_messaging",
+        "path": "C:\\Users\\dev\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\firebase_messaging-15.2.10\\",
+        "native_build": true,
+        "dependencies": ["firebase_core"],
+        "dev_dependency": false
+      },
+      {
+        "name": "photo_manager",
+        "path": "C:\\Users\\dev\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\photo_manager-3.6.4\\",
+        "native_build": true,
+        "dependencies": [],
+        "dev_dependency": false
+      },
+      {
+        "name": "vibration",
+        "path": "C:\\Users\\dev\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\vibration-3.1.3\\",
+        "native_build": true,
+        "dependencies": [],
+        "dev_dependency": true
+      }
+    ]
+  },
+  "dependencyGraph": [
+    {
+      "name": "camera",
+      "dependencies": ["camera_android_camerax", "camera_avfoundation", "camera_web"]
+    },
+    {
+      "name": "camera_android_camerax",
+      "dependencies": ["flutter_plugin_android_lifecycle"]
+    },
+    {"name": "file_picker", "dependencies": []},
+    {"name": "firebase_core", "dependencies": []},
+    {"name": "firebase_messaging", "dependencies": ["firebase_core"]},
+    {"name": "photo_manager", "dependencies": []},
+    {"name": "vibration", "dependencies": []}
+  ],
+  "date_created": "2026-08-14 10:00:00.000000",
+  "version": "3.35.0"
+}
